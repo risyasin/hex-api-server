@@ -19,7 +19,7 @@ class router {
         // access control origins
         this.expressRouter.use((req, res, next) => {
             res.header('Access-Control-Allow-Origin', '*');
-            res.header('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,Authorization');
+            res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Authorization, Accept, Vary');
             next();
         });
     }

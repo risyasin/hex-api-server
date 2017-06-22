@@ -28,16 +28,14 @@
     "email": "eser@ozvataf.com"
   },
   "license": "Apache-2.0",
-  "main": "./lib/index.js",
+  "main": "./src/index.js",
   "engines": {
-    "node": ">=4.2.0"
+    "node": ">=7.1.0"
   },
   "scripts": {},
-  "directories": {
-    "lib": "./lib"
-  },
+  "directories": {},
   "files": [
-    "lib",
+    "src",
     "bin"
   ],
   "bin": {
